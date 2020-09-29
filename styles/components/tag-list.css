@@ -1,0 +1,14 @@
+.tag-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+.tag-list > li {
+  background-color: #d9a68a;
+  padding: 10px;
+  color: white;
+}

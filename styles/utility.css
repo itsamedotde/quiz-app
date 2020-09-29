@@ -1,0 +1,17 @@
+.scrolling {
+  overflow-y: scroll; /*** for what? ***/
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mt-15 {
+  padding-top: 15px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

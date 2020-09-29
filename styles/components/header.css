@@ -1,0 +1,14 @@
+.header {
+  position: relative;
+  background: #58bf70;
+  color: white;
+  display: grid;
+  place-items: center;
+  border-bottom: 3px solid #75b17a;
+}
+
+.header__title {
+  text-transform: uppercase;
+  font-size: 145%;
+  letter-spacing: 4px;
+}

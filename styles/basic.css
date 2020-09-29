@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bangers', cursive;
+  display: grid;
+  grid-template-rows: 55px auto 55px;
+  max-width: 600px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 112.5%;
+  margin: 0;
+}
+
+.footer {
+}
+
+main {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 35%,
+    rgba(156, 246, 246, 1) 100%
+  );
+}
+h1 {
+}
+
+h2 {
+}

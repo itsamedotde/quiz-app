@@ -1,0 +1,206 @@
+/************ type / general ************/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e1e1e;
+  /*max-width: 500px;*/
+  margin: auto;
+  color: #d4d4d4;
+  font-family: 'Courier Prime', monospace;
+  font-size: 112.5%;
+  margin: 20px;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+a {
+  color: #ce9178;
+}
+
+header {
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+/************ Logo ************/
+
+.logoName {
+  font-weight: lighter;
+  font-size: 60px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  /*94CFEE*/
+}
+
+/************ skills ************/
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.skills > span {
+  background-color: #83bbfd;
+  color: black;
+  padding: 10px;
+  max-height: 42px;
+}
+
+.skills > h2 {
+  width: 100%;
+}
+
+/************ contact ************/
+
+.contactBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 200px;
+  border: 1px solid #fff;
+  margin-bottom: 30px;
+  padding: 0 0 20px 20px;
+}
+
+.contactBox a {
+  text-decoration: none !important;
+}
+
+.contactHeadline {
+  grid-column: 1 / span 2;
+  margin-bottom: 20px;
+}
+
+.material-icons {
+  position: relative;
+  bottom: -12px;
+  font-size: 35px !important;
+}
+
+/************ profile links ************/
+
+.profilebox {
+  border: 1px solid #fff;
+  position: relative;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profillink {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 15px;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-column: 1 / span 2; /*Tabl*/
+}
+
+/************ biography ************/
+
+.biography {
+  grid-column: 1 / span 2; /*Tabl*/
+}
+
+.grid-cv {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+/************ layout ************/
+
+.main-grid {
+}
+
+@media (min-width: 768px) {
+  body {
+    margin: 60px;
+    font-size: 130%;
+  }
+
+  header {
+    padding: 10px;
+    margin-bottom: 80px;
+  }
+
+  .main-grid {
+    display: grid;
+    grid-template-columns: 46% 46%;
+    grid-column-gap: 8%;
+  }
+
+  .profile-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .profilebox {
+    width: 30%;
+  }
+
+  .profillink {
+    bottom: 8px;
+  }
+
+  .contactBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    padding: 0 0 10px 0;
+    grid-column: 1 / span 2;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  section {
+    margin-bottom: 90px;
+  }
+}
+
+/**position: relative; */
+/***
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+*/
