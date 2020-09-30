@@ -1,10 +1,11 @@
 .header {
   position: relative;
-  background: #58bf70;
+  /*background: #58bf70;*/
+  background: linear-gradient(45deg, #55a86b 25%, #76b988 25%);
   color: white;
   display: grid;
   place-items: center;
-  border-bottom: 3px solid #75b17a;
+  border-bottom: 3px solid #55a86b;
 }
 
 .header__title {

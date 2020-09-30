@@ -3,7 +3,8 @@
 }
 
 body {
-  font-family: 'Bangers', cursive;
+  /*font-family: 'Luckiest Guy', cursive;*/
+  font-family: 'Chewy', cursive;
   display: grid;
   grid-template-rows: 55px auto 55px;
   max-width: 600px;
@@ -16,19 +17,16 @@ body {
   margin: 0;
 }
 
-.footer {
+main {
+  padding: 20px 20px 20px 20px;
 }
 
-main {
-  background: rgb(255, 255, 255);
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 1) 35%,
-    rgba(156, 246, 246, 1) 100%
-  );
-}
 h1 {
+  font-family: 'Luckiest Guy', cursive;
 }
 
 h2 {
+}
+
+p {
 }
