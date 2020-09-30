@@ -1,0 +1,17 @@
+.footer {
+  border-top: 3px solid #75b17a;
+}
+
+.footer__grid {
+  display: grid;
+  grid-auto-flow: column;
+  background: linear-gradient(45deg, #5fa973 25%, #76b988 35%);
+
+  grid-template-columns: 25% 25% 25% 25%;
+  place-items: center;
+  height: 100%;
+}
+
+.footer__icons {
+  fill: blue;
+}

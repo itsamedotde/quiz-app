@@ -1,0 +1,24 @@
+.tag-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  font-family: 'Luckiest Guy';
+}
+
+.tag-list--left {
+  justify-content: left;
+}
+
+.tag-list > li {
+    background-color: #d9a68a;
+    padding: 10px;
+    padding-top: 10px;
+    color: white;
+    padding: 10px 10px 5px 10px;
+    border: 1px dotted #fff;
+}
+}
+}
