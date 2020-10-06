@@ -1,12 +1,44 @@
 .footer {
-  border-top: 3px solid #55a86b;
+  /*border-top: 3px solid #55a86b;*/
+  border-top: 2px solid #55a86b;
+  box-shadow: 0px -1px 0px 0px #47965b;
+  z-index: 999;
+  background-color: #84b68c;
 }
 
 .footer__grid {
   display: grid;
   grid-auto-flow: column;
-  background: linear-gradient(180deg, #7fb98f 25%, #76b988 66%);
+  /*background: linear-gradient(180deg, #7fb98f 25%, #76b988 66%);*/
   grid-template-columns: 25% 25% 25% 25%;
   place-items: center;
   height: 100%;
+  padding-top: 9px;
+}
+
+.footer__icon {
+  opacity: 0.6;
+}
+
+.footer__icon--active {
+  opacity: 1;
+}
+
+.footer__link {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.footer__link--active {
+  position: relative;
+}
+
+.footer__link--active::before {
+  content: '▾';
+  position: absolute;
+  right: 0;
+  left: 0;
+  color: #55a86b;
+  font-size: 26px;
+  top: -25px;
 }

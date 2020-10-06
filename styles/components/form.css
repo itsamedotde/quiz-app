@@ -38,11 +38,12 @@
   resize: none;
   position: relative;
   font-family: monospace;
+  font-size: 14px;
   padding: 5px;
 }
 
 .form__input-textarea::placeholder {
-  font-size: 110%;
+  font-size: 14px;
 }
 
 .form__input-text {
@@ -54,10 +55,11 @@
   resize: none;
   position: relative;
   font-family: monospace;
+  font-size: 14px;
   padding: 5px;
 }
 
 .form__input-text::placeholder {
-  font-size: 140%;
+  font-size: 14px;
   vertical-align: top;
 }
