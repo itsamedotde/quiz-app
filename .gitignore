@@ -1,2 +1,5 @@
-.DS-Store
-.vscode/
+.DS_Store
+node_modules
+.cache
+dist
+.vscode
