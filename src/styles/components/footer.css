@@ -28,6 +28,7 @@
   height: 100%;
   width: 100%;
   text-align: center;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 .footer__link--active {
   position: relative;

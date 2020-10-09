@@ -7,7 +7,7 @@ export function getDataJs(name) {
   return document.querySelector(dataSelector)
 }
 
-export function getDataJsAll(name) {
+export function getAllDataJs(name) {
   const dataSelector = '[data-js=' + name + ']'
   return document.querySelectorAll(dataSelector)
 }

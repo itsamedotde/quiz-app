@@ -10,6 +10,15 @@
 .scrolling {
   overflow-y: scroll; /*** for what? ***/
 }
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
 .mb-25 {
   margin-bottom: 25px;
 }
@@ -25,6 +34,11 @@
 .mt-15 {
   margin-top: 15px;
 }
+
+.mt-20 {
+  margin-top: 20px;
+}
+
 .mt-30 {
   margin-top: 30px;
 }
@@ -53,4 +67,12 @@
 
 .p-abs {
   position: absolute;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
 }

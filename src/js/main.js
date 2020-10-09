@@ -1,11 +1,11 @@
 /*** Load & import components ***/
+console.log('js loaded')
 
-/*
-import { setupCards } from './setupCards'
-import { setupForm } from './setupForm'
 import { setupNavigation } from './setupNavigation'
-
-setupCards()
-setupForm()
 setupNavigation()
-*/
+
+import { setupCard } from './setupCard'
+setupCard()
+
+import { setupForm } from './setupForm'
+setupForm()
