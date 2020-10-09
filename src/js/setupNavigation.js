@@ -41,17 +41,3 @@ export function setupNavigation() {
     })
   }
 }
-
-/**
- * 
- *   const bookmarks = getAllDataJs('bookmark')
-
-  bookmarks.forEach((bookmark) => {
-    //console.log(bookmark)
-    bookmark.addEventListener('click', handleBookmarkClick)
-  })
-
-  function handleBookmarkClick(event) {
-    event.currentTarget.classList.toggle('card__bookmark--active')
-  }
- */
