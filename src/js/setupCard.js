@@ -1,7 +1,38 @@
 import { getAllDataJs, getDataJs } from './lib'
 
 export function setupCard() {
-  /* BOOKMARKS */
+  const cards = getAllDataJs('card')
+  cards.forEach((card) => {
+    toggleBookmark(card)
+    showAnswer(card)
+  })
+
+  function toggleBookmark(card) {
+    //console.log(card)
+    const bookmarkIcon = card.querySelector('[data-js=bookmark]') // kind holen
+    bookmarkIcon.addEventListener('click', (event) => {
+      event.target.classList.toggle('card__bookmark--active')
+      //console.log('toggle')
+    })
+  }
+
+  function showAnswer(card) {
+    const answerText = card.querySelector('[data-js=answer]')
+    const showAnswerBtn = card.querySelector('[data-js=answerBtn]')
+    //console.log(answerText)
+    showAnswerBtn.addEventListener('click', () => {
+      //console.log('show answer')
+      answerText.classList.toggle('d-none')
+      if (showAnswerBtn.innerText.toLowerCase().trim() == 'show answer') {
+        //console.log('is show')
+        showAnswerBtn.innerText = 'Hide answer'
+      } else showAnswerBtn.innerText = 'Show answer'
+    })
+  }
+}
+
+/*
+export function setupCard() {
   const bookmarks = getAllDataJs('bookmark')
 
   bookmarks.forEach((bookmark) => {
@@ -29,32 +60,4 @@ export function setupCard() {
     answer.classList.toggle('d-none')
   }
 }
-
-/*
-
-
-  function handleNavClick(event) {
-    const navItem = event.currentTarget
-    const targetName = navItem.dataset // 'home' or 'bookmarks' etc.
-    updateNavitems(targetName)
-    updatePages(targetName)
-  }
-
-  function updateNavitems(targetName) {
-    navButtons.forEach((navButton) => {
-      navButton.classList.toggle(
-        'footer__link--active',
-        navButton.dataset.name === targetName.name
-      )
-    })
-  }
-
-  function updatePages(targetName) {
-    pages.forEach((page) => {
-      page.classList.toggle('d-none', page.dataset.name !== targetName.name)
-    })
-  }
-
-
-
 */

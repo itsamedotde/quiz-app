@@ -1,4 +1,4 @@
-import { getAllDataJs } from './lib'
+import { getAllDataJs, getDataJs } from './lib'
 
 export function setupNavigation() {
   const pages = getAllDataJs('page')
@@ -15,6 +15,30 @@ export function setupNavigation() {
     updateNavitems(targetName)
     updateNavicons(targetName)
     updatePages(targetName)
+    updateTitles(targetName)
+  }
+
+  function updateTitles(targetName) {
+    console.log('target = ' + targetName.name)
+    let title
+    switch (targetName.name) {
+      case 'index':
+        title = 'quiz-app'
+        break
+      case 'create':
+        title = 'New Question'
+        break
+      case 'bookmarks':
+        title = 'Bookmarks'
+        break
+      case 'profile':
+        title = 'Profile'
+        break
+      default:
+        title = 'quiz-app'
+    }
+    getDataJs('headerTitle').innerText = title
+    getDataJs('pageTitle').innerText = 'QUIZ-APP - ' + title
   }
 
   function updateNavitems(targetName) {

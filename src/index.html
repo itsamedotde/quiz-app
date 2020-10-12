@@ -8,56 +8,51 @@
       href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Chewy&family=Concert+One&family=Luckiest+Guy&display=swap"
       rel="stylesheet"
     />
-    <title>QUIZ APP - Questions</title>
+    <title data-js="pageTitle">QUIZ APP - Questions</title>
     <script defer src="js/main.js"></script>
   </head>
   <body>
-    <header class="header"><h1 class="header__title">Quiz-App</h1></header>
+    <header class="header">
+      <h1 data-js="headerTitle" class="header__title">Quiz-App</h1>
+    </header>
     <!--- INDEX ----------------------------------------------------------------------------------->
     <main data-name="index" data-js="page" class="scrolling card__grid bg">
-      <section class="card mb-30">
-        <span class="card__bookmark" data-js="bookmark" data-id="1"
+      <section class="card mb-30" data-js="card">
+        <span class="card__bookmark" data-js="bookmark"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             width="58px"
             height="58px"
           >
+            <path d="M0 0h24v24H0V0z" fill="none" />
             <path
               d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z"
             /></svg
         ></span>
         <h2 class="card__headline mt-20">Question #1</h2>
         <p class="card__question">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. In impedit
-          veniam est quod pariatur quas???
+          Lorem ipsum dolor sit amet consectetur adipisicing ???
         </p>
         <div class="center mb-25">
-          <button
-            data-js="answerButton"
-            data-id="1"
-            class="card__button"
-            type="button"
-          >
+          <button data-js="answerBtn" class="card__button" type="button">
             Show Answer
           </button>
         </div>
-        <p class="card__answer d-none" data-name="answer" data-id="1">
-          Lorem ipsum dolor, data-id="1"sit amet consectetur adipisicing elit.
-          Debitis soluta fugit repudiandae a dolore eum ex non tempora, labore
-          neque ullam vel accusantium quam, repellendus totam minus ducimus
-          impedit praesentium.Lorem ipsum dolor, sit amet consectetur
-          adipisicing elit.
+        <p class="card__answer d-none" data-js="answer">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
+          soluta fugit repudiandae a dolore eum ex non tempora, labore neque
+          ullam.
         </p>
         <div class="card__hr mt-15"></div>
         <ul class="tag-list">
-          <li>Tag1</li>
-          <li>Tag1</li>
-          <li>Tag1</li>
+          <li>Politik</li>
+          <li>Wissenschaft</li>
+          <li>Sport</li>
         </ul>
       </section>
-      <section class="card mb-30">
-        <span class="card__bookmark" data-js="bookmark" data-id="2"
+      <section class="card mb-30" data-js="card">
+        <span class="card__bookmark" data-js="bookmark"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -71,36 +66,32 @@
         ></span>
         <h2 class="card__headline mt-20">Question #2</h2>
         <p class="card__question">
-          Lorem ipsum dolor sit amet consectetur adipisicing ???
+          Lorem ipsum dolor sit amet consectetur fugit repudiandae a dolore
+          adipisicing ???
         </p>
         <div class="center mb-25">
-          <button
-            data-js="answerButton"
-            data-id="2"
-            class="card__button"
-            type="button"
-          >
+          <button data-js="answerBtn" class="card__button" type="button">
             Show Answer
           </button>
         </div>
-        <p class="card__answer d-none" data-name="answer" data-id="2">
-          Lorem ipsum dolor, data-id="2"sit amet consectetur adipisicing elit.
-          Debitis soluta fugit repudiandae a dolore eum ex non tempora, labore
-          neque ullam vel accusantium quam, repellendus totam minus ducimus
-          impedit praesentium.Lorem.
+        <p class="card__answer d-none" data-js="answer">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
+          soluta fugit repudiandae a dolore eum ex non tempora, labore neque
+          ullam vel accusantium quam, repellendus totam minus ducimus impedit
+          praesentium.Lorem.
         </p>
         <div class="card__hr mt-15"></div>
         <ul class="tag-list">
-          <li>Tag1</li>
-          <li>Tag1</li>
-          <li>Tag1</li>
-          <li>Tag1</li>
-          <li>Tag1</li>
-          <li>Tag1</li>
+          <li>Mathematik</li>
+          <li>Musik</li>
+          <li>Kunst</li>
+          <li>Fussball</li>
+          <li>Politik</li>
         </ul>
       </section>
-      <section class="card mb-30">
-        <span class="card__bookmark" data-js="bookmark" data-id="3"
+
+      <section class="card mb-30" data-js="card">
+        <span class="card__bookmark" data-js="bookmark"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -113,29 +104,23 @@
             /></svg
         ></span>
         <h2 class="card__headline mt-20">Question #3</h2>
-        <p class="card__question">
-          Lorem ipsum dolor sit amet a dolore eum consectetur adipisicing ???
-        </p>
+        <p class="card__question">Lorem ipsum dolor sit amet ???</p>
         <div class="center mb-25">
-          <button
-            data-js="answerButton"
-            data-id="3"
-            class="card__button"
-            type="button"
-          >
+          <button data-js="answerBtn" class="card__button" type="button">
             Show Answer
           </button>
         </div>
-        <p class="card__answer d-none" data-name="answer" data-id="3">
+        <p class="card__answer d-none" data-js="answer">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
           soluta fugit repudiandae a dolore eum ex non tempora, labore neque
           ullam vel accusantium quam, repellendus totam minus ducimus impedit
           praesentium.Lorem.
         </p>
-        <div class="card__hr mt-10"></div>
+        <div class="card__hr mt-15"></div>
         <ul class="tag-list">
-          <li>Tag1</li>
-          <li>Tag1</li>
+          <li>Musik</li>
+          <li>Mathematik</li>
+          <li>Fussball</li>
         </ul>
       </section>
     </main>
@@ -145,8 +130,8 @@
       data-js="page"
       class="scrolling card__grid bg d-none"
     >
-      <section class="card mb-30">
-        <span class="card__bookmark" data-js="bookmark" data-id="4"
+      <section class="card mb-30" data-js="card">
+        <span class="card__bookmark" data-js="bookmark"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -158,36 +143,30 @@
               d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z"
             /></svg
         ></span>
-        <h2 class="card__headline mt-20">Question #12</h2>
+        <h2 class="card__headline mt-20">Question #5</h2>
         <p class="card__question">
-          Lorem ipsum dnsectetur adipisicing elit. In impedit veniam est quod
-          pariatur quas???
+          Lorem ipsum dolor sit amet consectetur adipisicing sit amet
+          consectetur adipisicing???
         </p>
         <div class="center mb-25">
-          <button
-            data-js="answerButton"
-            class="card__button"
-            data-id="4"
-            type="button"
-          >
+          <button data-js="answerBtn" class="card__button" type="button">
             Show Answer
           </button>
         </div>
-        <p class="card__answer d-none" data-name="answer" data-id="4">
+        <p class="card__answer d-none" data-js="answer">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
           soluta fugit repudiandae a dolore eum ex non tempora, labore neque
-          ullam vel accusantium quam, repellendus totam minus ducimus impedit
-          praesentium.Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          ullam.
         </p>
         <div class="card__hr mt-15"></div>
         <ul class="tag-list">
-          <li>Tag1</li>
-          <li>Tag1</li>
-          <li>Tag1</li>
+          <li>Politik</li>
+          <li>Wissenschaft</li>
+          <li>Sport</li>
         </ul>
       </section>
-      <section class="card mb-30">
-        <span class="card__bookmark" data-js="bookmark" data-id="5"
+      <section class="card mb-30" data-js="card">
+        <span class="card__bookmark" data-js="bookmark"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -199,42 +178,31 @@
               d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z"
             /></svg
         ></span>
-        <h2 class="card__headline mt-20">Question #38</h2>
-        <p class="card__question">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. In impedit
-          veniam est quod pariatur eum ex non tempora quas???
-        </p>
+        <h2 class="card__headline mt-20">Question #3</h2>
+        <p class="card__question">Lorem ipsum dolor sit amet ???</p>
         <div class="center mb-25">
-          <button
-            data-js="answerButton"
-            class="card__button"
-            data-id="5"
-            type="button"
-          >
+          <button data-js="answerBtn" class="card__button" type="button">
             Show Answer
           </button>
         </div>
-        <p class="card__answer d-none" data-name="answer" data-id="5">
+        <p class="card__answer d-none" data-js="answer">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
           soluta fugit repudiandae a dolore eum ex non tempora, labore neque
           ullam vel accusantium quam, repellendus totam minus ducimus impedit
-          praesentium.Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          praesentium.Lorem.
         </p>
         <div class="card__hr mt-15"></div>
         <ul class="tag-list">
-          <li>Tag1</li>
-          <li>Tag1</li>
-          <li>Tag1</li>
-          <li>Tag1</li>
-          <li>Tag1</li>
-          <li>Tag1</li>
+          <li>Musik</li>
+          <li>Mathematik</li>
+          <li>Fussball</li>
         </ul>
       </section>
     </main>
     <!--- QUESTION ----------------------------------------------------------------------------------->
     <main data-name="create" data-js="page" class="scrolling bg d-none">
       <div class="form__card">
-        <form class="form" data-js="form">
+        <form class="form" data-js="form" action="">
           <h2 class="mt-20 mb-20">Let's add a question!</h2>
 
           <label for="question ">Question? </label>
@@ -258,7 +226,7 @@
             name="tags"
           />
           <div class="center mt-30">
-            <button class="form__button mb-30" type="button">ADD</button>
+            <input class="form__button mb-30" type="submit" value="ADD" />
           </div>
         </form>
       </div>
@@ -280,12 +248,12 @@
           accusantium vel minus?
         </p>
         <h2 class="profile__skill-headline">Skill-Tags:</h2>
-        <ul class="tag-list tag-list--left profile__tags mb-30">
-          <li>Tag1</li>
-          <li>Tag1</li>
-          <li>Tag1</li>
-          <li>Tag1</li>
+        <ul class="tag-list tag-list--left profile__tags mb-15">
+          <li>Musik</li>
+          <li>Kunst</li>
+          <li>Fussball</li>
         </ul>
+ 
         <div class="center button__wrapper">
           <button class="profile__button mb-30" type="button">Logout</button>
         </div>
