@@ -1,0 +1,20 @@
+<svg id="footer"  preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" width="774" height="128.5" viewBox="0 0 774 128.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f1d5aa;
+      }
+
+      .cls-2 {
+        fill: #ebbb85;
+      }
+
+      .cls-3 {
+        fill: #55a86b;
+      }
+    </style>
+  </defs>
+  <rect id="Rechteck_3" data-name="Rechteck 3" class="cls-1" width="774" height="129"/>
+  <rect id="Rechteck_3_Kopie" data-name="Rechteck 3 Kopie" class="cls-2" y="3" width="774" height="129"/>
+  <rect id="Rechteck_3_Kopie_2" data-name="Rechteck 3 Kopie 2" class="cls-3" y="7" width="774" height="129"/>
+</svg>

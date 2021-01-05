@@ -1,0 +1,24 @@
+<svg id="header_Kopie" data-name="header Kopie" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"  viewBox="0 0 774 144.031">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f1d5aa;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #ebbb85;
+      }
+
+      .cls-3 {
+        fill: #55a86b;
+      }
+    </style>
+  </defs>
+  <path preserveAspectRatio="none" id="Rechteck_2_Kopie_4" data-name="Rechteck 2 Kopie 4" class="cls-1" d="M0,6.971H773.993L774,142s-109.345-17.39-245-14c-101.986,2.549-218.433,16.029-316.776,16.029C92.012,144.029,0,131.909,0,131.909V6.971ZM529,118"/>
+  <path preserveAspectRatio="none"  id="Rechteck_2" data-name="Rechteck 2" class="cls-2" d="M0,3.971H773.993L774,139s-109.345-17.39-245-14c-101.986,2.549-218.433,16.029-316.776,16.029C92.012,141.029,0,128.909,0,128.909V3.971ZM529,115"/>
+  <path preserveAspectRatio="none" id="Rechteck_2_Kopie_3" data-name="Rechteck 2 Kopie 3" class="cls-3" d="M0-.029H773.993L774,135s-109.345-17.39-245-14c-101.986,2.549-218.433,16.029-316.776,16.029C92.012,137.029,0,124.909,0,124.909V-0.029ZM529,111"/>
+</svg>
